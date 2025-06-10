@@ -5,7 +5,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("<h1>Radhe radhe i am a hacked</h1>")
+    return render(request, 'index.html')
 
 def success_page(request):
     return HttpResponse("<h1>This is a sign that you have succesfully retrieved your system</h1>")
