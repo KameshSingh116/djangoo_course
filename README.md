@@ -18,3 +18,5 @@ python manage.py runserver 0.0.0.0:<custom port number>
 also update the installed apps list in the settings.py bu addin the names of the created apps.
 
 # All the logical stuff includiing what we want to send from the backend to the frontend is written in the views
+
+### We will use the render function to render or display a html page on the starting page or whereever we want.
