@@ -16,7 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from home.views import *
 
 urlpatterns = [
+    path('',home,name="home"), #giving name here is not necessary but its iimportytance will be tauiuigh in the upcoming lessons.
+    #'' means the fiirst screen which is loaded when we visit the backend server port.
     path('admin/', admin.site.urls),
 ]
