@@ -6,9 +6,41 @@
     <meta name="description" content="Welcome to the Django Course Home Page. Learn Django step by step.">
     <meta name="keywords" content="Django, Python, Web Development, Course, Tutorial">
     <title>Home - Django Course</title>
+   <style> table, th, td {
+  border: 1px solid black;
+}
+</style>
 </head>
 <body>
     <h1>Welcome to the Django Course Home Page</h1>
-    {{ peoples }}
+  
+
+    <table>
+       
+  <tr>
+    <th>Sno.</th>
+    <th>Name</th>
+    <th>Age</th>
+    <th>CanVote</th>
+  </tr>
+   {% for people in peoples %}
+  <tr>
+    <td>{{ forloop.counter }}</td>
+    <td>{{ people.name }}</td>
+    <td>{{ people.Age }}</td>
+    <td>
+        {% if people.age >= 18 %}
+        👍
+
+        {% else %} 
+        👎
+        
+     {% endif %}
+    </td>
+  </tr>
+ 
+   {% endfor %}
+</table>
+
 </body>
 </html>
