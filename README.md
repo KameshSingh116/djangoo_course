@@ -22,3 +22,6 @@ also update the installed apps list in the settings.py bu addin the names of the
 ### We will use the render function to render or display a html page on the starting page or whereever we want.
 
 Using the context keyword we can send a dynamic data from backend to the frontend page.
+
+{{% %}}
+is used to perform further functions like turning the backend dynamic list data into tables in frontend.
