@@ -22,7 +22,9 @@ def success_page(request):
     return HttpResponse("<h1>This is a sign that you have succesfully retrieved your system</h1>")
 
 def about(request):
-    return render(request, 'about.html')
+    context={'page':'About'}
+    return render(request, 'about.html',context)
 
 def contact(request):
-    return render(request, 'contact.html')
+    context ={'page':'Contact'}
+    return render(request, 'contact.html',context)
