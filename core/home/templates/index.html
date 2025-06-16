@@ -10,6 +10,12 @@
     table, th, td {
   border: 1px solid black;
 }
+.bg-green {
+  background-color: green;
+}
+.bg-red {
+  background-color: red;
+}
 </style>
 </head>
 <body>
@@ -24,20 +30,19 @@
     <th>Age</th>
     <th>CanVote</th>
   </tr>
-   {% for people in peoples %}
-  <tr>
-    <td>{{ forloop.counter }}</td>
-    <td>{{ people.name }}</td>
-    <td>{{ people.Age }}</td>
-    <td>
-        {% if people.age >= 18 %}
-        👍
-
-        {% else %} 
-        👎
-        
-     {% endif %}
-    </td>
+     
+  {% for people in peoples %}
+   <tr>
+    <td> {{ forloop.counter }}</td>
+    <td> {{ people.name }} </td>
+    <td> {{ people.Age }} </td>
+    <td {% if people.Age >= 28 %} style="background:green"  {% else %} style="background:red" {% endif %} >
+    {% if people.Age >= 28 %}
+    OK
+    {% else %}
+    Not OK
+    {% endif %}
+  </td>
   </tr>
  
    {% endfor %}
