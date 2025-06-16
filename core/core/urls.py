@@ -21,6 +21,8 @@ from home.views import *
     #'' means the fiirst screen which is loaded when we visit the backend server port.
 urlpatterns = [
     path('',home,name="home"),
-    path('success-page',success_page,name='success_page'), 
+    path('success-page',success_page,name='success_page'),
+    path('contact',contact,name='contact'), 
+    path('about',about,name='about'), 
     path('admin/', admin.site.urls),
 ]
