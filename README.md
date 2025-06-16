@@ -31,3 +31,5 @@ This is used for slicing the content from a particulr position.
 
 ## Django Template Tags (credits to docs.djangoproject.com)
 [Visit This Link](https://docs.djangoproject.com/en/5.2/ref/templates/builtins/)
+
+
