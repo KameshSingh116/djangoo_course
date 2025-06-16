@@ -25,3 +25,6 @@ Using the context keyword we can send a dynamic data from backend to the fronten
 
 {{% %}}
 is used to perform further functions like turning the backend dynamic list data into tables in frontend.
+
+{{ text |truncatechars:5 }}
+This is used for slicing the content from a particulr position.
