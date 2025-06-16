@@ -48,7 +48,11 @@
    {% endfor %}
 </table>
 <p>
-{{ text |truncatechars:5 }}
+  {% if "Cucumber" in vegies %}
+  Available
+  {% else %}
+  "Not Available!
+  {% endif %}
 </p>
 </body>
 </html>
