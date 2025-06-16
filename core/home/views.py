@@ -11,7 +11,12 @@ def home(request):
          {"name":"Balram", "Age":29}
          
     ]
-    return render(request, 'index.html', context = {"peoples":peoples})
+
+    vegies=["Brinjal", "Potato", "Beetroot", "Cucumber"]
+
+    text="""Radhe Radhe Hare Krishna"""
+
+    return render(request, 'index.html', context = {"peoples":peoples,"text":text})
 
 def success_page(request):
     return HttpResponse("<h1>This is a sign that you have succesfully retrieved your system</h1>")
