@@ -37,3 +37,7 @@ When we will go throgh the HTML code of all the three files, we will see that th
 
 ## Here comes the concept of DRY(Don't Repeat Yourself) in OOP
 TO follow this up we will make a base.html file and then keep the common stuff in it then using the django template tags , we will make them accesible by the files which need them.
+
+## Now we are going to study about models and migrations.
+### This is the heart and the most important stuff in the backend development.
+ 
