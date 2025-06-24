@@ -40,4 +40,15 @@ TO follow this up we will make a base.html file and then keep the common stuff i
 
 ## Now we are going to study about models and migrations.
 ### This is the heart and the most important stuff in the backend development.
- 
+
+ - we make a class (which becomes our model).
+ - then we give models.Model as the argument to that class.
+
+ class student(models.Model):
+    name=models.CharField(max_length=100)
+    age=models.IntegerField()
+    email=models.EmailField()
+    address=models.TextField()
+    image=models.ImageField()
+    file=models.FileField()
+    -- this is the example model structure.
