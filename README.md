@@ -52,3 +52,13 @@ TO follow this up we will make a base.html file and then keep the common stuff i
     image=models.ImageField()
     file=models.FileField()
     -- this is the example model structure.
+
+
+
+     dependencies = [
+        ('home', '0001_initial'),
+    ]
+
+    these are the changes in the dependencies list that we see when we add some arguments to the fields after the first makemigrations.
+
+
