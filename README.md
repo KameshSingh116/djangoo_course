@@ -70,3 +70,8 @@ Its a bridge to interact with the files through the terminal/shell which is in m
 
 To enter the django shell we will you the command 
 - python manage.py shell
+
+
+Think of a file which imports or uses some components of some file of django's components or django related components, then the direct execution of that file is not allowed....
+
+##### so here comes the role of django shell which helps to execute that file or function of that file or any component of that file without any error.
