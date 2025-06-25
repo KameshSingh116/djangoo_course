@@ -62,3 +62,5 @@ TO follow this up we will make a base.html file and then keep the common stuff i
     these are the changes in the dependencies list that we see when we add some arguments to the fields after the first makemigrations.
 
 
+This was the lecture on models and migrations.
+#### To see/read the sqlite/sqlite3 files we can use "DB Browser"
