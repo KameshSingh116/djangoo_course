@@ -64,3 +64,6 @@ TO follow this up we will make a base.html file and then keep the common stuff i
 
 This was the lecture on models and migrations.
 #### To see/read the sqlite/sqlite3 files we can use "DB Browser"
+
+## "Django Shell"
+Its a bridge to interact with the files through the terminal/shell which is in many cases comvenient
