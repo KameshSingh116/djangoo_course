@@ -67,3 +67,6 @@ This was the lecture on models and migrations.
 
 ## "Django Shell"
 Its a bridge to interact with the files through the terminal/shell which is in many cases comvenient
+
+To enter the django shell we will you the command 
+- python manage.py shell
