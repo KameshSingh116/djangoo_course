@@ -75,3 +75,9 @@ To enter the django shell we will you the command
 Think of a file which imports or uses some components of some file of django's components or django related components, then the direct execution of that file is not allowed....
 
 ##### so here comes the role of django shell which helps to execute that file or function of that file or any component of that file without any error.
+
+## CRUD operations in Django for records
+### C - Create
+### R - Read
+### U - Update
+### D - Delete
