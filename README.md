@@ -84,5 +84,6 @@ Think of a file which imports or uses some components of some file of django's c
 
 By visiting some sites we can know several operations under these all 4 catgories.
 
+We will learn some more things later after a project.
 ## Practice well and make projects to be confident.
 # Radhe Radhe Hare Krishn
