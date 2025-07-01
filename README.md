@@ -81,3 +81,8 @@ Think of a file which imports or uses some components of some file of django's c
 ### R - Read
 ### U - Update
 ### D - Delete
+
+By visiting some sites we can know several operations under these all 4 catgories.
+
+## Practice well and make projects to be confident.
+# Radhe Radhe Hare Krishn
